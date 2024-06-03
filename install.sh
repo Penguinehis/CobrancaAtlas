@@ -123,9 +123,9 @@ fi
 cd $HOME
 mkdir apiwpp
 git clone https://github.com/Penguinehis/CobrancaAtlas.git $HOME/apiwpp
-cd apiwpp
 apt install screen -y
-chmod +X *
+chmod +x $HOME/apiwpp/*
+cd $HOME
 echo ""
 echo ""
 echo "Para iniciar digite: ./start.sh"
