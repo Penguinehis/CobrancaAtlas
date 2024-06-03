@@ -1,0 +1,1 @@
+screen -dmS apiwpp bash -c 'while true; do php $HOME/apiwpp/api.php && sleep 600; done'"
